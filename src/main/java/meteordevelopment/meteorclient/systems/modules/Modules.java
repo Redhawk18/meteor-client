@@ -543,6 +543,7 @@ public class Modules extends System<Modules> {
     }
 
     private void initMisc() {
+        add(new AntiDesync());
         add(new Swarm());
         add(new AntiPacketKick());
         add(new AutoClicker());
